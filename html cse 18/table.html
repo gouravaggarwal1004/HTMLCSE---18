@@ -2,61 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>HTML TABLEt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
 </head>
 <body>
-    <!-- <table border="2" width = "90%" align="centre" cell spacing = "0"
-    cell padding = "10"
+    <table border="2" width="90%" align="center" cellspacing="0" cellpadding="5">
         <tr>
-            <th>S . NO</th>
-            <th>NAME</th>
-            <TH>MOB</TH>
-            <TH>BRANCH</TH>
+            <th>S.no.</th>
+            <th>Name</th>
+            <th>Mob</th>
+            <th>Branch</th>
         </tr>
 
-        <TR>
-            <TD>01</TD>
-            <td>gourav</td>
-            <td>737373</td>
-            <td>CSE</td>
-        </TR>
-         <TR>
-            <TD>02</TD>
-            <td>abhay</td>
-            <td>737373</td>
-            <td>CSE</td>
-        </TR>
-         <TR>
-            <TD>03</TD>
-            <td>vikas</td>
-            <td>737373</td>
-            <td>CSE</td>
-        </TR> -->
-        <table border="2" width = "80%" align="centre" cell spacing = "1"
-    cell padding = "10"
-            <tr align = "centre">
-              <td > "row 1 cell 1</td>
-              <td>row 1 cell 2</td>
-              <td>row 1 cell 3</td>
-            </tr>
-            <tr>
-                
-                <td> row 1 cell 2</td>
-                <td>row 1 cell 3</td>
-            </tr>
-            <tr>
-                <td>row 3 cell 1 </td>
-                <td>ROW 2 CELL 2</td>
-                <TD>ROW 2 CELL 3</TD>
-            </tr>
-            <TR>
-                <td>row 3 cell 1 </td>
-                <td>row 3 cell 2</td>
-                <td>row 3 cell 3</td>
-            </TR>
-        </table>
-        
+        <tr>
+            <th>01</th>
+            <th>Abhay</th>
+            <th>28739823072</th>
+            <th rowspan="2">Cse</th>
+        </tr>
+
+        <tr>
+            <th>02</th>
+            <th>Gauransh</th>
+            <th>28739823072</th>
+            <th>Cse</th>
+        </tr>
+
+        <tr>
+            <th>03</th>
+            <th>tarun</th>
+            <th>28739823072</th>
+            <th>DS</th>
+        </tr>
+    </table>
+    <br>
+
+    <table border="2" width="90%" align="centre" cellspacing="0" cellpadding="5">
+        <tr align="center">
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+        </tr>
+
+        <tr align="center">
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 cell 3</td>
+        </tr>
+
+        <tr align="center">
+            <!-- <td>Row 1 Cell 1</td> -->
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
     </table>
 </body>
 </html>
+
